@@ -1,0 +1,21 @@
+<h1>Welcome to CSC436!</h1>
+
+<form>
+	<h3>Search email by name:</h3>
+
+	<div class="field">
+	<label for="title">Please enter the first name and last name:</label> 
+	<input name="title" #name>
+	</div>
+
+	<div>
+		<label class="display"></label>
+	</div>
+
+	<button (click)="searchByName(name)"> Search</button>
+</form>
+
+<h2>class names:</h2>
+<app-name-lists></app-name-lists>
+
+
